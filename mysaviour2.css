@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+background-color:#d9d9d9;
+height: 70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0% 3%;
+}
+img{
+    width:180px;
+    height: 60px;
+}
+
+.attributes{
+    color: blue;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.au{
+    width: 7vw;
+}
+
+.bb{
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 10vw;
+    background-color:blue;
+   color:white;
+}

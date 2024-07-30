@@ -1,0 +1,25 @@
+.foot{
+    background-color: black;
+    color: white;
+    height: 150px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+ul{margin-top: 20;
+
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot1{
+    background-color:black;
+    color:white;
+    height: 50px;
+    padding-top: 25px;
+    text-align: center;
+}

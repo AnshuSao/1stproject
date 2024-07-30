@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:#d9d9d9;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 3%;
+}
+img{
+    width:180px;
+    height: 60px;
+}
+
+.attributes{
+    color: blue;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.au{
+    width: 7vw;
+}
+
+.bb{
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 10vw;
+    background-color:blue;
+    color:white;
+}
+.side-nav {
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #555555;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.side-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    color: #f1f1f1;
+}
+
+.side-nav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white;
+    background: none;
+    border: none;
+}
+.menu{
+    display: none;
+}
+
+@media (max-width:800px) {
+    .navbar{
+        background-color: #d9d9d9;
+        height:80px;
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        font-weight: blod;
+    }
+   .logo1{
+        width: 150px;
+        height: 60px;
+        
+   } 
+   .attributes{
+        /* color: blue;
+        display: flex;
+        gap:5px;
+        justify-content: center;
+        align-items:center;
+        font-weight: bold;
+        font-size: 60%; */
+        display: none;
+    }
+    .au{
+        width: 8vw;
+    }
+    .bb{
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+        width: 20vw;
+        background-color: blue;
+        color: white;
+    }
+    .menu{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        border: none;
+        background: none;
+
+    }
+    .menuimage{
+        width: 45px;
+        height: 45px;
+    }
+}
